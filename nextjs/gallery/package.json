@@ -1,0 +1,20 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "ps7 Gallery",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Pavittar Singh",
+  "license": "ISC"
+}

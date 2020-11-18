@@ -1,0 +1,37 @@
+  /* Single person page style */
+  .mygallery a {  
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  @media (max-width: 768px) {
+    .mygallery img {
+      max-height: 150px;
+      padding: 2px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .mygallery img {
+      max-height: 250px;
+      padding: 2px;
+    }
+  }
+
+  .homePageImage {
+    height: 100%;
+    margin: 0;
+  }
+  .homePageImage {
+    margin: auto 2em;
+    text-align: center;
+  }
+  .homePageImage img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
+    margin: 20px auto;
+  }
+  

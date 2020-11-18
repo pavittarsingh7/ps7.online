@@ -1,0 +1,52 @@
+.custom-bg {
+    background-color:#424242;
+}
+@media (max-width:498px){
+    .gphoto {
+      margin-left: 22%
+    }
+  }
+    .gphoto .member {
+        position: relative;
+        width: 200px;
+    }
+  
+    .gphoto .member .member-info {
+      opacity: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      transition: 0.2s;
+    }
+    
+    .gphoto .member .member-name {
+      margin-top: 50px;
+      transition: margin 0.2s;
+    }
+    
+    .gphoto .member:hover .member-info {
+      background: rgba(0, 62,  128, 0.7);
+      opacity: 1;
+      transition: 0.4s;
+      border-radius: 100%;
+    }
+    
+    .gphoto .member:hover .member-name {
+      margin-top: 0;
+      transition: margin 0.4s;
+    }
+    
